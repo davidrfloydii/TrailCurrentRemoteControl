@@ -1,16 +1,5 @@
 #pragma once
 #include <Arduino.h>
-#include <lvgl.h>
-#include <Wire.h>
-#include "touch.h"
-// EZZ
-#include "ui/ui.h"
-#include "ui/screens.h"
-#include <WiFi.h>
-#include <esp_wifi.h>
-#include <esp_now.h>
-
-//#define LV_DISPLAY_ROTATION_270 3 // landscape USB left side
 
 #define DEBUG 1
 // Conditional definition for debugging if DEBUG is 1 then it will print to serial port.
